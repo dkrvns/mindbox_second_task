@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Table, ForeignKey
 from sqlalchemy.orm import relationship
 
-from infra.db.base import TimeBaseModel
+from infra.db.models.base import TimeBaseModel
 
 product_category_association = Table(
     'product_category',
