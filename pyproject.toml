@@ -15,6 +15,9 @@ di = "^0.79.2"
 uvicorn = "^0.34.2"
 alembic = "^1.15.2"
 asyncpg = "^0.30.0"
+testcontainers = "^4.10.0"
+pytest = "^8.3.5"
+pytest-asyncio = "^0.26.0"
 
 
 [build-system]

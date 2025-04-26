@@ -25,7 +25,7 @@ def init_api(
 ) -> FastAPI:
     app = FastAPI(
         debug=debug,
-        title="User service",
+        title="Test service",
         version="1.0.0",
         # default_response_class=ORJSONResponse,
     )
